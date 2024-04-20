@@ -1,21 +1,21 @@
-echo "Going back to old TermuX terminal! Thank You for using TermuX-Custom"
+echo "¡Volviendo a la antigua terminal TermuX! Gracias por usar ConTermux"
 sleep 1.0
 #setup motd
 echo > motd
-echo 'Welcome to Termux!' >> motd
+echo '¡Bienvenido a Termux!' >> motd
 echo >> motd
 echo 'Wiki:            https://wiki.termux.com' >> motd
 echo 'Community forum: https://termux.com/community' >> motd
 echo 'Gitter chat:     https://gitter.im/termux/termux' >> motd
 echo "IRC channel:     #termux on freenode" >> motd
 echo >> motd
-echo 'Working with packages:' >> motd
+echo 'Trabajando con paquetes:' >> motd
 echo >> motd
-echo '* Search packages:   pkg search <query>' >> motd
-echo '* Install a package: pkg install <package>' >>  motd
+echo '* Buscar packages:   pkg search <query>' >> motd
+echo '* Instalar package: pkg install <package>' >>  motd
 echo '* Upgrade packages:  pkg upgrade' >> motd
 echo >> motd
-echo 'Subscribing to additional repositories:' >> motd
+echo 'Suscribirse a repositorios adicionales:' >> motd
 echo >> motd
 echo '* Root: pkg install root-repo' >> motd
 echo '* Unstable: pkg install unstable-repo' >> motd
