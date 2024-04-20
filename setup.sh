@@ -29,14 +29,14 @@ pkg install termux-api -y
 echo -e "\033[31m\033[1m        INSTALACIÓN COMPLETADA \033[32m[\033[36m✓\033[32m]" | pv -qL 12
 echo -e "\033[33m\033[1m]────────────────────────────────────────────["
 termux-setup-storage
-cd $HOME/ConTermux
+cd $HOME/Contermux
 cp login.sh $PREFIX/etc
 chmod +x login.sh delete.sh setup.sh sound_effect.py banner.sh update.sh
-mkdir -p $HOME/ConTermux/Song 
-mv Acceso-concedido.mp3 Sonido2.mp3 Sonido1.mp3 sound_effect.py $HOME/ConTermux/Song
+mkdir -p $HOME/Contermux/Song 
+mv Acceso-concedido.mp3 Sonido2.mp3 Sonido1.mp3 sound_effect.py $HOME/Contermux/Song
 rm 1
-mkdir -p $HOME/ConTermux/NETWORK
-mv network.py $HOME/ConTermux/NETWORK
+mkdir -p $HOME/Contermux/NETWORK
+mv network.py $HOME/Contermux/NETWORK
 
 # Prompt user for update
 read -p "¿Quieres actualizar el repositorio ahora? (y/n): " choice
