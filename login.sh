@@ -41,7 +41,7 @@ if [[ \$contra == $Contra && \$nombre == $Nombre ]]; then
 sleep 3
 clear
 cd $HOME
-cd ConTermux
+cd Contermux
 cd Song
 python sound_effect.py
 clear
@@ -81,7 +81,7 @@ shopt -s compat32
 shopt -s lithist
 comment
 cd $HOME
-cd ConTermux
+cd Contermux
 cd
 else
 echo ""
